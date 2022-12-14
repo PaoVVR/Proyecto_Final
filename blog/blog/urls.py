@@ -21,7 +21,7 @@ from estudiantes import views
 urlpatterns = [
     
     path('admin/', admin.site.urls),
-    path('Inicio/', include('estudiantes.urls')),
+    path('', include('estudiantes.urls')),
 ]
 #path('', Home),
 #path("home/" , include("home.urls")),
